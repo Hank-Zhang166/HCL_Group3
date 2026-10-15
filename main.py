@@ -15,14 +15,14 @@ import tkinter as tk
 from tkinter import messagebox
 
 # 只要改动这一行，就能测试共享修改是否同步到其他人那里
-WELCOME_TEXT = "欢迎阅读本小组的代码！"
+WELCOME_TEXT = "欢迎来到第三小组的奇思妙想之旅！"
 
 
 def show_welcome(text: str = WELCOME_TEXT) -> None:
     """弹出一个对话框，显示欢迎信息。"""
     root = tk.Tk()
     root.withdraw()  # 隐藏多余的主窗口，只留下对话框
-    messagebox.showinfo("人机交互设计第三小组", text)
+    messagebox.showinfo("人机交互第三小组", text)
     root.destroy()
 
 
